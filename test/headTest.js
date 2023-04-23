@@ -18,7 +18,6 @@ describe("#head", () => {
     assert.strictEqual(head(['Hello', 'lighthouse', 'Labs']), 'Hello'); 
   });
 
-  
 
 });
 
