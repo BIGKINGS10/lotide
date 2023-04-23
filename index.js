@@ -14,19 +14,19 @@ const assertObjectsEqual = require('./assertObjectsEqual')
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  flatten: flatten,
-  findKey: findKey,
-  findKeyByValye: findKeyByValye,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual,
-  eqArrays: eqArrays,
-  eqObjects: this.eqObjects,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  assertObjectsEqual: assertObjectsEqual
+  head,
+  tail,
+  middle,
+  flatten,
+  findKey,
+  findKeyByValue,
+  assertEqual,
+  assertArraysEqual,
+  eqArrays,
+  eqObjects,
+  countLetters,
+  countOnly,
+  assertObjectsEqua
 
 
 };
