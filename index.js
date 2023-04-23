@@ -10,7 +10,13 @@ const eqArrays = require('./eqArrays');
 const eqObjects = require('./eqObjects');
 const countLetters = require('./countLetters');
 const countOnly = require('./countOnly');
-const assertObjectsEqual = require('./assertObjectsEqual')
+const assertObjectsEqual = require('./assertObjectsEqual');
+const pig_latin = require('./pig-latin');
+const map = require('./map');
+const takeUntil = require('./takeUntil');
+const without = require('./without');
+const reverse = require('./reverse');
+const letterPositions = require('./letterPositions');
 
 
 module.exports = {
@@ -26,7 +32,13 @@ module.exports = {
   eqObjects,
   countLetters,
   countOnly,
-  assertObjectsEqua
+  assertObjectsEqual,
+  pig_latin,
+  map,
+  takeUntil,
+  without,
+  reverse,
+  letterPositions
 
 
 };

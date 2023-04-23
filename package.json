@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@bigkings/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the Lodash library",
   "main": "main.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/BIGKINGS10/lotide.git"
   },
-  "author": "",
+  "author": "Osagie Kingsley Omoruyi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BIGKINGS10/lotide/issues"
