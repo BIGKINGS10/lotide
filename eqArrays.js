@@ -28,10 +28,6 @@ const eqArrays = function(arr1, arr2) {
   return equal;
 };
 
-module.export = eqArrays;
+module.exports = eqArrays;
 
-// assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => true
-// assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), true); // => false
 
-// assertEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]),true); // => true
-// assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]),true); // => false
