@@ -32,6 +32,4 @@ const equalArrays =  function(array1, array2) {
 };
 
 
-assertEqual(tail([5,6,7]), [6,7]);
-assertEqual(tail([5,6,7]), [6,8]);
-assertEqual(tail(["Hello", "Lighthouse", "Labs"]), ["Lighthouses", "Labs"]);
+module.exports = tail
