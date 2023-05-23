@@ -5,7 +5,6 @@ const middle = function(arr1) {
   if (arr1.length <= 2) {
     return outputArray;
   } else {
-    // see if the input array is even or odd
     if (arr1.length % 2 === 0) {
       middleIndex = (arr1.length / 2) - 1;
       outputArray.push(arr1[middleIndex]);

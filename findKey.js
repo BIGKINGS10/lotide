@@ -5,17 +5,14 @@ const assertEqual = function(actual, expected) {
 
 
 const findKey = function(object, callback) {
-  //scan the object and return the first key that is a truthy
-  // else return undefined
   //loop through the keys in the object using for of loop because the keys are an an array
   for (const key of Object.keys(object)) {
-    if (callback(object[key])) { //if the callback arguement eqauls the object key
-      //return key
+    if (callback(object[key])) {
+      
       return key;
     }
   }
-    
-  // else return undefined
+  
   return undefined;
 };
     

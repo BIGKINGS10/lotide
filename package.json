@@ -1,7 +1,7 @@
 {
   "name": "@bigkings/lotide",
-  "version": "1.0.0",
-  "description": "A mini clone of the Lodash library",
+  "version": "1.0.1",
+  "description": "A mini clone of the Lodash library by BIGKINGS",
   "main": "main.js",
   "directories": {
     "test": "test"

@@ -20,8 +20,6 @@ const bestTVShowsByGenre = {
   drama:  "The Wire"
 };
 
-
-
 console.log(findKeyByValue(bestTVShowsByGenre, "The Wire"));
 console.log(assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama"));
 console.log(assertEqual(findKeyByValue(bestTVShowsByGenre, "That Avengers"), undefined));
